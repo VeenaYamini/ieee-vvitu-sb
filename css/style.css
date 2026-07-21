@@ -1470,10 +1470,12 @@ textarea.form-input {
   
   .mobile-toggle {
     display: block;
+     padding-top: 35px;
   }
   
   .nav-cta {
     display: none;
+     order: 3;
   }
   
   .mobile-cta {
@@ -1481,8 +1483,12 @@ textarea.form-input {
     margin-top: var(--spacing-sm);
     width: 100%;
   }
+   .nav-cta img{
+         align-items:inherit;
+    padding-bottom: 20%;
+}
 
-  .hero-grid {
+   .hero-grid {
     grid-template-columns: 1fr;
     text-align: center;
     gap: var(--spacing-lg);
